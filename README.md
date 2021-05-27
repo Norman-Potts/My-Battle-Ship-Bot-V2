@@ -58,20 +58,21 @@ hits around that point.
   
 	The first  fibpairs deque looks like this on the game board. (No AreaShot(), only fib()) 
   
-	   x--->
-	   o.........   0
-	   .oo.....o.   1
-	   ...o......   2
-	   ....o..o..   3 
-	   .........o   4
-	   .....o....   5
-	   ..........   6
-	   ..........   7
-	   ......o...   8
-	   ..........   9
-	   0123456789
+	       x--->
+	   y o.........   0
+	   | .oo.....o.   1
+	   | ...o......   2
+	   V ....o..o..   3 
+	      .........o   4
+	      .....o....   5
+	      ..........   6
+	      ..........   7
+	      ......o...   8
+	      ..........   9
+	     0123456789
 
   	Fibpairs: [x,y]  [0,0]  [1,1]  [2,1]  [3,2]  [4,3]  [5,5]  [6,8]  [7,3]  [8,1]  [9,4]
+	
   	The four other fibpairs would the same as above but they start in different corners. 
   	The second set starts from the bottom left, thrid set from bottom right, fourth, from bottom top. 
  
