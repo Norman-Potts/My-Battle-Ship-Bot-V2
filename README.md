@@ -39,7 +39,8 @@ shoot.
 Begins to shooting strategy. Previously this method was called fireshot. 
 It never fired the shot, but passes the decision making onto the other methods. 
 Method ShotStrategy simply calls method fibinnachiModTen for times, 
-then method thridshot untill all ships are sunk. 
+then method thridshot untill all ships are sunk. When the sub methods end,
+the parent method from what they get called from continues. 
 	
 	
 
@@ -69,7 +70,7 @@ hits around that point.
 	      ..........   7
 	      ......o...   8
 	      ..........   9
-	     0123456789
+	      0123456789
 
   	Fibpairs: [x,y]  [0,0]  [1,1]  [2,1]  [3,2]  [4,3]  [5,5]  [6,8]  [7,3]  [8,1]  [9,4]
 	
@@ -126,9 +127,37 @@ hits around that point.
 	   o........o
 	   
 	            
+				
+			
+			
+		
+### Method fib()
+This method does the calculation for fibinnachi. 
+Example output of fib():
+		fib(0) = 0 
+		fib(1) = 1 
+		fib(2) = 1 
+		fib(3) = 2 
+		fib(4) = 3 
+		fib(5) = 5 
+		fib(6) = 8 
+		fib(7) = 13 
+		fib(8) = 21 
+		fib(9) = 34
 	
-	   
+	
+	
+###Method thirdshot()
+This method shoots third shot that is available.
+Used as a last resort to finish up game.
+
+
+### Method AreaFireShot()	   
+When there was a hit in fibinnachiModTen() or thirdshot(), this method will shoot on the neighbooring available spots.
 	      
+		  
+### Method InlineFireShot()
+When AreaFireShot() gets a hit, InlineFireShot() tries to shoot in the next spot that lines up with the previous spots. This method calls it's self untill it misses. 
+
 	        
 	         
-	
