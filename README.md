@@ -59,10 +59,10 @@ hits around that point.
 	The first  fibpairs deque looks like this on the game board. (No AreaShot(), only fib()) 
   
 	       x--->
-	   y o.........   0
-	   | .oo.....o.   1
-	   | ...o......   2
-	   V ....o..o..   3 
+	   y  o.........   0
+	   |  .oo.....o.   1
+	   |  ...o......   2
+	   V  ....o..o..   3 
 	      .........o   4
 	      .....o....   5
 	      ..........   6
