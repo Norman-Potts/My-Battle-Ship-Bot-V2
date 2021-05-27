@@ -1,4 +1,4 @@
-package my.battle.ship.bot;
+package my.battle.ship.bot.v2;
 import battleship.BattleShip;
 
 /** Class MyBattleShipBot 
@@ -7,7 +7,7 @@ import battleship.BattleShip;
  * 
  * @author Norman
  */
-public class MyBattleShipBot {    
+public class MyBattleShipBotV2 {    
     public static void main(String[] args) {
         startingSolution();
     }

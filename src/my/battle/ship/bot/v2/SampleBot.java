@@ -1,4 +1,4 @@
-package my.battle.ship.bot;
+package my.battle.ship.bot.v2;
 
 
 import battleship.BattleShip;
