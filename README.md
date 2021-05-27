@@ -147,7 +147,7 @@ Example output of fib():
 	
 	
 	
-###Method thirdshot()
+### Method thirdshot()
 This method shoots third shot that is available.
 Used as a last resort to finish up game.
 
