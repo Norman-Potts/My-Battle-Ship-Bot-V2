@@ -10,14 +10,14 @@ Uncommenting 'sampleBot.printMap();' will print the map.
 
 
 
-### MyBattleShipBot.java
+## MyBattleShipBot.java
 
 Sets up the game and allows you to change the NUMBEROFGAMES variable. 
 	
 
 
 	
-### SampleBot.java
+## SampleBot.java
 
 Makes the decision on where to shoot, and fires the shot.  
 Samplebot contains seven methods and on constructor. 
@@ -25,7 +25,7 @@ Samplebot contains seven methods and on constructor.
 
 
 
-#### Constructor SampleBot 	
+### Constructor SampleBot 	
 
 Accepts the BattleShip game reference as a parameter.
 Prepares private variable used for sampleBot to make decisions on where to
@@ -34,7 +34,7 @@ shoot.
 
 	
 	
-#### Method ShotStrategy
+### Method ShotStrategy
 
 Begins to shooting strategy. Previously this method was called fireshot. 
 It never fired the shot, but passes the decision making onto the other methods. 
@@ -44,7 +44,7 @@ then method thridshot untill all ships are sunk.
 	
 
 
-#### Method fibinnachiModTen()
+### Method fibinnachiModTen()
 
 Builds an array of points based on a fibinnachi sequence of points. 
 Then shoots at the points untill a hit, or all points gone.
@@ -76,7 +76,7 @@ hits around that point.
   	The second set starts from the bottom left, thrid set from bottom right, fourth, from bottom top. 
  
   	Below is the map of just fibinnachi shots without AreaFireShot enabled. 
-  	fibpairs:  [0,0]  [1,1]  [2,1]  [3,2]  [4,3]  [5,5]  [6,8]  [7,3]  [8,1]  [9,4] 
+  	First fibpairs:  [0,0]  [1,1]  [2,1]  [3,2]  [4,3]  [5,5]  [6,8]  [7,3]  [8,1]  [9,4] 
  	  o.........
  	  .oo.....o.
  	  ...o......
@@ -88,7 +88,7 @@ hits around that point.
  	  ......o...
  	  ..........
 
-  	fibpairs:  [0,9]  [1,8]  [2,8]  [3,7]  [4,6]  [5,4]  [6,1]  [7,6]  [8,8]  [9,5] 
+  	Second fibpairs:  [0,9]  [1,8]  [2,8]  [3,7]  [4,6]  [5,4]  [6,1]  [7,6]  [8,8]  [9,5] 
  	  o.........
  	  .oo...o.o.
  	  ...o......
@@ -100,7 +100,7 @@ hits around that point.
  	  .oo...o.o.
  	  o.........
 
-	   fibpairs:  [9,9]  [8,8]  [7,8]  [6,7]  [5,6]  [4,4]  [3,1]  [2,6]  [1,8]  [0,5] 
+	Third fibpairs:  [9,9]  [8,8]  [7,8]  [6,7]  [5,6]  [4,4]  [3,1]  [2,6]  [1,8]  [0,5] 
 	   o.........
 	   .ooo..o.o.
 	   ...o......
@@ -112,7 +112,7 @@ hits around that point.
 	   .oo...ooo.
 	   o........o
 	
-	   fibpairs:  [9,0]  [8,1]  [7,1]  [6,2]  [5,3]  [4,5]  [3,8]  [2,3]  [1,1]  [0,4] 
+	Forth fibpairs:  [9,0]  [8,1]  [7,1]  [6,2]  [5,3]  [4,5]  [3,8]  [2,3]  [1,1]  [0,4] 
 	   o........X
 	   .oXo..ooo.
 	   ...o..o...
