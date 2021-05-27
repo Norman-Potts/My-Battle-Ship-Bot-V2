@@ -27,7 +27,7 @@ import java.util.Stack;
  * @author Norman
  */
 public class SampleBot {    
-    private int gameSize;
+    private int gameSize; 
     private BattleShip battleShip;
     private Random random;
     private CellState[][] board;      
