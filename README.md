@@ -1,4 +1,4 @@
-# My-Battle-Ship-Bot
+# My-Battle-Ship-Bot V1
 
 
 This program plays battleship for the number of games specified.
