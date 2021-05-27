@@ -133,7 +133,8 @@ hits around that point.
 		
 ### Method fib()
 This method does the calculation for fibinnachi. 
-Example output of fib():
+
+      Example output of fib():
 		fib(0) = 0 
 		fib(1) = 1 
 		fib(2) = 1 
