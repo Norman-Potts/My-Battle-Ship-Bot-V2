@@ -10,15 +10,15 @@
 
 
 Method fibinnachi()
-       Builds an array of points based on a fibinnachi sequence of points. 
-       Then shoots at the points untill a hit, or all points gone.
-       When their is a hit, it calls the AreaShot() method. 
-       When the fibinnachi method ends without a hit, the fib() method calls it again with a different direction
-       value. The direction parameter builds the fibinnachi sequence starting from a different corner.
+Builds an array of points based on a fibinnachi sequence of points. 
+Then shoots at the points untill a hit, or all points gone.
+When their is a hit, it calls the AreaShot() method. 
+When the fibinnachi method ends without a hit, the fib() method calls it again with a different direction
+value. The direction parameter builds the fibinnachi sequence starting from a different corner.
     
-       The first  fibpairs deque looks like this on the game board. (No areashots, only fib) 
+The first  fibpairs deque looks like this on the game board. (No areashots, only fib) 
            
-           x-->
+           x--->
         y  o.........   0
         |  .oo.....o.   1
         |  ...o......   2
